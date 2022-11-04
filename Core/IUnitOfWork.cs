@@ -1,4 +1,4 @@
-﻿using Application.IRepositories;
+﻿using Application.RepositorieInterfaces;
 
 namespace Application;
 

@@ -1,6 +1,6 @@
 ﻿using Domain.Models;
 
-namespace Application.IRepositories
+namespace Application.RepositorieInterfaces
 {
     public interface IProductCategoryRepository : IRepository<ProductCategory>
     {

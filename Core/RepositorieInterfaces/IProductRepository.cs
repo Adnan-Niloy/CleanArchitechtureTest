@@ -1,8 +1,9 @@
 ﻿using Domain.Models;
 
-namespace Application.IRepositories
+namespace Application.RepositorieInterfaces
 {
     public interface IProductRepository : IRepository<Product>
     {
+        List<Product> GetProducts();
     }
 }

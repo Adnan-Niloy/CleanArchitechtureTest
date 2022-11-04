@@ -1,5 +1,5 @@
 ﻿using Application;
-using Application.IRepositories;
+using Application.RepositorieInterfaces;
 using Persistence.Repositories;
 
 namespace Persistence
@@ -8,9 +8,9 @@ namespace Persistence
     {
         private readonly AmmsOnlineTestContext _context;
 
-        public IProductRepository Products { get; private set; }
-        public IProductTypeRepository ProductTypes { get; private set; }
-        public IProductCategoryRepository ProductCategories { get; private set; }
+        public IProductRepository Products { get; }
+        public IProductTypeRepository ProductTypes { get; }
+        public IProductCategoryRepository ProductCategories { get; }
 
         public UnitOfWork(AmmsOnlineTestContext context)
         {

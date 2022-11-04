@@ -1,4 +1,4 @@
-﻿using Application.IRepositories;
+﻿using Application.RepositorieInterfaces;
 using System.Linq.Expressions;
 
 namespace Persistence.Repositories

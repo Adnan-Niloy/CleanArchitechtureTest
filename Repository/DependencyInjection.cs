@@ -1,5 +1,5 @@
 ﻿using Application;
-using Application.IRepositories;
+using Application.RepositorieInterfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
